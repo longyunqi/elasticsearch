@@ -7,6 +7,9 @@ if [ "$#" -eq 0 ]; then
 fi
 
 REMOTE="$1"
+
+
+#! this is  a  test
 WORKING_DIR=$(pwd)
 
 if ! git ls-remote --exit-code "${REMOTE}" > /dev/null 2>&1; then
